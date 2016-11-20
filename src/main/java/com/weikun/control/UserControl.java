@@ -38,7 +38,7 @@ public class UserControl extends HttpServlet{
         Template tmp=cfg.getTemplate(p+".ftl");
 
         Map<String,Object> map=new HashMap<String,Object>();
-        map.put("user","weikun");
+        map.put("user","<b>weikun</b>");
         map.put("list", Arrays.asList("张三","李四","王二麻子"));
 
 
